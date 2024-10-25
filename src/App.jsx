@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Timer from './cmp/Timer';
+import Timer from './cmp/timer';
 
 function App() {
   const [typedWord, setTypedWord] = useState('');
